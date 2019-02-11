@@ -1,5 +1,5 @@
 # coloring-b-w-photos-
-We followed the assignment of transformig images using an autoencoder neural network. Train an autoencoder DLNN that learns to emulate some form of image processing, such as colorizing black and white photos, or performing super resolution, etc.
+We followed the assignment of "transform images using an autoencoder neural network. Train an autoencoder DLNN that learns to emulate some form of image processing, such as colorizing black and white photos, or performing super resolution, etc".
 
 We used 3000 images dataset of flowers as training data and tested it on flower images as well as other black and white photos. 
 
