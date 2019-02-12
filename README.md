@@ -1,7 +1,7 @@
-# coloring-b-w-photos-
+# coloring-b-w-photos
 We followed the assignment of "transform images using an autoencoder neural network. Train an autoencoder DLNN that learns to emulate some form of image processing, such as colorizing black and white photos, or performing super resolution, etc".
 
-We used 3000 pairs of images of flowers as training data and tested it on flower images as well as other black and white photos. 
+We used 3000 pairs of images of flowers as training data and tested it on flower photos as well as other black and white photos. 
 
 Here are example images from the training dataset:
 
@@ -17,5 +17,6 @@ We then wanted to see how it would color images that have less attributes with t
 The result of the coloring of these images is more whimsical, interseting in and of itself. 
 
 ![](Results/flower_training_coloring-01.jpg)
+
 
 ![](Results/flower_training_coloring-03.jpg)
