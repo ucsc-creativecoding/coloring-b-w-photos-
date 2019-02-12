@@ -1,7 +1,7 @@
 # coloring-b-w-photos
 We followed the assignment of "transform images using an autoencoder neural network. Train an autoencoder DLNN that learns to emulate some form of image processing, such as colorizing black and white photos, or performing super resolution, etc".
 
-We used 3000 pairs of images of flowers as training data and tested it on flower photos as well as other black and white photos. 
+We used 3640 pairs of images of flowers as training data and tested it on flower photos as well as other black and white photos. 
 
 Here are example images from the training dataset:
 
@@ -20,3 +20,16 @@ The result of the coloring of these images is more whimsical, interseting in and
 
 
 ![](Results/flower_training_coloring-03.jpg)
+
+## Model:
+Image size is 128 * 128
+We tried layer filters are all 64 for all 7 layers, and learning rate is 0.001, and the results are mostly greenish, cannot catch other colors. 
+and then we changed layer 1 ~ 7 layer filters are 64, 128, 256, 256, 256, 128, 64. 
+Learning rate is 0.0001
+Batch_size is 10
+Interation is 100000
+
+## How to run:
+python test.py path_of_the_image
+
+
