@@ -28,7 +28,8 @@ We used 3 channels for both gray and color images; Image size is 128 * 128. We t
 
 
 ## How to run:
-python train.py to train new dataset
-python test.py path_of_the_image
+
+train: python train.py 
+test:  python test.py path_of_the_image
 
 
