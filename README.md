@@ -5,7 +5,7 @@ We followed the assignment of "transform images using an autoencoder neural netw
 
 We used 3640 pairs of images of flowers as training data and tested it on flower photos as well as other black and white photos. 
 
-Here are example images from the training dataset:
+Here are example images from the training dataset (there were also other kinds of flowers):
 
 ![](Results/flower_training_coloring-04.jpg)
 
