@@ -22,9 +22,11 @@ The result of the coloring of these images is more whimsical, interseting in and
 ![](Results/flower_training_coloring-03.jpg)
 
 ## Model:
-Image size is 128 * 128, we tried layer filters are all 64 for all 7 layers, and learning rate is 0.001, and the results are mostly greenish, cannot catch other colors. And then we changed layer 1 ~ 7 layer filters are 64, 128, 256, 256, 256, 128, 64, Learning rate is 0.0001, Batch_size is 10, Interation is 100000
+We used 3 chanels for both gray and color images; Image size is 128 * 128. We tried layer filters are all 64 for all 7 layers, and learning rate is 0.001, and the results are mostly greenish, cannot catch other colors. And then we changed layer 1 ~ 7 layer filters are 64, 128, 256, 256, 256, 128, 64, Learning rate is 0.0001, Batch_size is 10, Interation is 100000.
+
 
 ## How to run:
+python train.py to train new dataset
 python test.py path_of_the_image
 
 
