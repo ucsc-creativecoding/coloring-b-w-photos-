@@ -30,6 +30,7 @@ We used 3 channels for both gray and color images; Image size is 128 * 128. We t
 ## How to run:
 
 train: python train.py 
+
 test:  python test.py path_of_the_image
 
 
